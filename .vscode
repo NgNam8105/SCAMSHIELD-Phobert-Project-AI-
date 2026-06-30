@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "**/venv": true,
+        "**/phobert_scam_model1": true,
+        "**/.git": true
+    },
+    "python.analysis.exclude": [
+        "venv",
+        "phobert_scam_model1"
+    ],
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "**/*.db",
+        "**/*.sqlite",
+        "**/*.db-journal",
+        "**/*.db-wal",
+        "**/*.db-shm",
+        "**/__pycache__/**"
+    ]
+}
